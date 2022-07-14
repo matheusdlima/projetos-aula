@@ -7,13 +7,15 @@
 
 #include <stdio.h>
 
-int main2(int argc, const char * argv[]) {
+int main(int argc, const char * argv[]) {
     float n1, n2, n3, n4, n5;
     float maior = 0, menor = 11;
     float soma = 0, media = 0;
     
     printf("Digite as notas: ");
-    scanf("%f.1%f.1%f.1%f.1%f.1", &n1, &n2, &n3, &n4, &n5);
+    scanf("%f %f %f %f %f", &n1, &n2, &n3, &n4, &n5);
+    
+    printf("%.1f %.1f %.1f %.1f %.1f\n", n1, n2, n3, n4, n5);
     
     // teste do maior
     if (n1 > maior){
@@ -34,28 +36,29 @@ int main2(int argc, const char * argv[]) {
     
     // teste do menor
     if (n1 < menor){
-        maior = n1;
+        menor = n1;
     }
     if (n2 < menor){
-        maior = n2;
+        menor = n2;
     }
     if (n3 < menor){
-        maior = n3;
+        menor = n3;
     }
     if (n4 < menor){
-        maior = n4;
+        menor = n4;
     }
     if (n5 < menor){
-        maior = n5;
+        menor = n5;
     }
     
     // remover o maior e o menor e fazer a média
-    soma = n1 + n2 + n3 + n4 + n5;
-    soma -= (menor + maior);
+    soma = n1 + n2 + n3 + n4 + n5 - menor - maior;
     
     media = soma / 3;
     
-    printf("%f", media);
+    printf("%f %f\n", maior, menor);
+    
+    printf("%.1f\n", media);
     
     return 0;
 }

@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FEDE6AEE2880DB8D0093D5ED /* q2.c in Sources */ = {isa = PBXBuildFile; fileRef = FEDE6AED2880DB8D0093D5ED /* q2.c */; };
 		FEFE342C2880C34E001F9944 /* q1.c in Sources */ = {isa = PBXBuildFile; fileRef = FEFE342B2880C34E001F9944 /* q1.c */; };
-		FEFE34352880D34B001F9944 /* q2.c in Sources */ = {isa = PBXBuildFile; fileRef = FEFE34342880D34B001F9944 /* q2.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,9 +24,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		FEDE6AED2880DB8D0093D5ED /* q2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = q2.c; sourceTree = "<group>"; };
 		FEFE34282880C34E001F9944 /* projetos aula */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "projetos aula"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEFE342B2880C34E001F9944 /* q1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = q1.c; sourceTree = "<group>"; };
-		FEFE34342880D34B001F9944 /* q2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = q2.c; path = "../Q2- prova/q2.c"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,7 +67,7 @@
 		FEFE34322880D2F2001F9944 /* Prova */ = {
 			isa = PBXGroup;
 			children = (
-				FEFE34342880D34B001F9944 /* q2.c */,
+				FEDE6AED2880DB8D0093D5ED /* q2.c */,
 				FEFE342B2880C34E001F9944 /* q1.c */,
 			);
 			path = Prova;
@@ -130,7 +130,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FEFE34352880D34B001F9944 /* q2.c in Sources */,
+				FEDE6AEE2880DB8D0093D5ED /* q2.c in Sources */,
 				FEFE342C2880C34E001F9944 /* q1.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
