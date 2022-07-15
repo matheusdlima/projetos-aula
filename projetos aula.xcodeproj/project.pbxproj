@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FE1C8DAD288125BB00067CAF /* q10.c in Sources */ = {isa = PBXBuildFile; fileRef = FE1C8DAC288125BB00067CAF /* q10.c */; };
+		FE3A55FF28812A1800FF63AF /* q10.c in Sources */ = {isa = PBXBuildFile; fileRef = FE3A55FE28812A1800FF63AF /* q10.c */; };
 		FEDE6AEE2880DB8D0093D5ED /* q2.c in Sources */ = {isa = PBXBuildFile; fileRef = FEDE6AED2880DB8D0093D5ED /* q2.c */; };
 		FEFE342C2880C34E001F9944 /* q1.c in Sources */ = {isa = PBXBuildFile; fileRef = FEFE342B2880C34E001F9944 /* q1.c */; };
 /* End PBXBuildFile section */
@@ -25,7 +25,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		FE1C8DAC288125BB00067CAF /* q10.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = q10.c; sourceTree = "<group>"; };
+		FE3A55FE28812A1800FF63AF /* q10.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = q10.c; path = Lista/q10.c; sourceTree = "<group>"; };
 		FEDE6AED2880DB8D0093D5ED /* q2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = q2.c; sourceTree = "<group>"; };
 		FEFE34282880C34E001F9944 /* projetos aula */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "projetos aula"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEFE342B2880C34E001F9944 /* q1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = q1.c; sourceTree = "<group>"; };
@@ -45,7 +45,7 @@
 		FE1C8DAA2881255100067CAF /* Lista */ = {
 			isa = PBXGroup;
 			children = (
-				FE1C8DAC288125BB00067CAF /* q10.c */,
+				FE3A55FE28812A1800FF63AF /* q10.c */,
 			);
 			name = Lista;
 			sourceTree = "<group>";
@@ -141,7 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE1C8DAD288125BB00067CAF /* q10.c in Sources */,
+				FE3A55FF28812A1800FF63AF /* q10.c in Sources */,
 				FEDE6AEE2880DB8D0093D5ED /* q2.c in Sources */,
 				FEFE342C2880C34E001F9944 /* q1.c in Sources */,
 			);
